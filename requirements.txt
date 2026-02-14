@@ -1,0 +1,6 @@
+crewai
+langchain-anthropic
+duckduckgo-search
+fpdf
+streamlit
+python-dotenv
