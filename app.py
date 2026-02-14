@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from fpdf import FPDF
 
 from crewai import Agent, Task, Crew, Process, LLM
-from crewai_tools import tool
+from crewai.tools import tool
 from langchain_community.tools import DuckDuckGoSearchRun
 
 # ---------------------------------------------------------------------------
