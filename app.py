@@ -36,8 +36,7 @@ def _get_api_key() -> str:
 # ---------------------------------------------------------------------------
 # LLM CONFIGURATION
 # ---------------------------------------------------------------------------
-MODEL_ID = "anthropic/claude-3-opus-20260201"
-
+MODEL_ID = "anthropic/claude-3-5-haiku-20241022"
 def _build_llm(api_key: str) -> LLM:
     return LLM(
         model=MODEL_ID,
