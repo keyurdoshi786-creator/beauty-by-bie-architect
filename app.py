@@ -1,4 +1,6 @@
-cd ~/Desktop/aura-bie
+"""
+AURA: The BiE Brand Architect
+
 
 # Create and activate a virtualenv
 python -m venv .venv && source .venv/bin/activate
